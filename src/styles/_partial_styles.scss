@@ -1,0 +1,40 @@
+/*
+Site Specific Styles added here
+ */
+$main-font-size: 10px;
+h5{font-size: 18px;}
+#main-content .lower-alpha {
+  counter-reset: list;
+  list-style-type: none;
+}
+#main-content .right-parenthesis{
+  counter-reset: list_1;
+  list-style-type: none;
+}
+#main-content .lower-alpha > li{
+  margin-top:8px;
+}
+#main-content .lower-alpha > li::before {
+  counter-increment: list;
+  content: "(" counter(list, lower-alpha) ") ";
+}
+
+#main-content .right-parenthesis > li::before {
+  counter-increment: list_1;
+  content: counter(list_1) ") ";
+}
+
+.upload_status{
+  margin-left:10px;
+  font-weight: normal;
+}
+@media print {
+  .btn-bar, button {display:none !important;}
+  .progress .progress-bar-custom {-webkit-print-color-adjust: exact; }
+}
+.not_bold {
+  margin:0;
+  padding:0;
+  font-weight: normal !important;
+}
+

@@ -1,0 +1,188 @@
+{
+  "dateTimeFormat": "MM/DD/YYYY hh:mm",
+  "default_repo": "eco_roof",
+  "httpHost": {
+    "app_public": {
+      "local":"https://was-inter-sit.toronto.ca",
+      "dev": "https://was-inter-sit.toronto.ca",
+      "qa": "https://was-inter-qa.toronto.ca",
+      "prod": "https://secure.toronto.ca"
+    }
+  },
+  "api":{
+    "api_public":{
+      "post": "/c3api_data/v2/DataAccess.svc/",
+      "upload": "/cc_sr_v1/upload/",
+      "uploadStatus": "/cc_sr_v1/submit/"
+    }
+  },
+  "button": {
+    "submit": "Submit"
+  },
+  "messages": {
+    "submit": {
+      "done": "<strong>Thank you for your submission.</strong><p> We have received your application. <br>Our review committee will begin processing your application and you will be notified in the next 5-10 business days of the status of your application.<br>Please note that you cannot begin construction on the roof until you have received approval from us. We are unable to fund projects that have already started or are complete.</p>",
+      "fail": "<strong>Unable to submit!</strong> This report could not be submitted to the Administrator. Please try again."
+    }},
+
+  "upload_defaults": {
+    "acceptedFiles": "image/*",
+    "maxFiles": 5,
+    "dictDefaultMessage": "Drop image file here or click to upload",
+    "maxFilesize": 5,
+    "dictFileTooBig": "Maximum photo size for file attachment is 5 MB",
+    "addRemoveLinks": true,
+    "dictMaxFilesExceeded": "Maximum 5 uploaded files"
+  },
+  "uploadDetails":"<p><ol><li>Do not attach any files larger than 10 MB or your information may not be saved. To send files that are greater than 10 MB, please email <a href=\"mailto:Annemarie.Baynton@toronto.ca\" target=\"_top\">Program Administrator</a> .<li>Please ensure that file names are no longer than 25 characters and contain no spaces or symbols.</li></ol></p>",
+  "BuildingStatus": [
+    {
+      "text": "New",
+      "value": "New"
+    },
+    {
+      "text": "Existing",
+      "value": "Existing"
+    }
+  ],
+  "BuildingType": [
+    {
+      "text": "Select...",
+      "value": ""
+    },
+    {
+      "text": "Commercial",
+      "value": "Commercial"
+    },
+    {
+      "text": "Institutional",
+      "value": "Institutional"
+    },
+    {
+      "text": "Industrial",
+      "value": "Industrial"
+    },
+    {
+      "text": "Residential",
+      "value": "Residential"
+    }
+  ],
+  "SlopeMeasureType": [
+    {
+      "text": "degrees",
+      "value": "degrees"
+    },
+    {
+      "text": "%",
+      "value": "%"
+    }
+  ],
+  "installedBy": [
+    {
+      "text": "Property owner/tenant",
+      "value": "Property owner/tenant"
+    },
+    {
+      "text": "General contractor",
+      "value": "General contractor"
+    },
+    {
+      "text": "Professional",
+      "value": "Professional"
+    }
+  ],
+  "ProjectType": [
+    {
+      "text": "Cool",
+      "value": "Cool"
+    },
+    {
+      "text": "Green",
+      "value": "Green"
+    }
+  ],
+  "greenRoofType": [
+    {
+      "text": "Extensive",
+      "value": "Extensive"
+    },
+    {
+      "text": "Intensive",
+      "value": "Intensive"
+    },
+    {
+      "text": "Semi-intensive",
+      "value": "Semi-intensive"
+    }
+  ],
+  "GreenAgree": [
+    {
+      "text": "The proposed green roof will satisfy the requirements of Toronto’s Green Roof Construction Standard. Note: Applicants are required to obtain a permit from the Chief Building Official prior to construction. A copy of this permit is required upon verification of the Eco-Roof",
+      "value": "The proposed green roof will satisfy the requirements of Toronto’s Green Roof Construction Standard. Note: Applicants are required to obtain a permit from the Chief Building Official prior to construction. A copy of this permit is required upon verification of the Eco-Roof"
+    }
+  ],
+  "greenRoofAssessment":"Are you looking to obtain an engineer in determining whether your existing property can carry the additional load of a green roof?",
+  "greenRoofAssessmentChoices":[{"text":"Yes","value":"Yes"},{"text":"No","value":"No"}],
+  "CoolRoofType": [
+    {
+      "text": "New roof membrane",
+      "value": "New roof membrane"
+    },
+    {
+      "text": "Coating over existing roof",
+      "value": "Coating over existing roof"
+    }
+  ],
+  "HowDidYouHear":[
+    {"text":"Internet search", "value":"Internet search"},
+    {"text":"City of Toronto website ", "value":"City of Toronto website"},
+    {"text":"Contractor / roofing professional", "value":"Contractor / roofing professional"},
+    {"text":"Property owner / manager", "value":"Property owner / manager"},
+    {"text":"Family, friend or colleague", "value":"Family, friend or colleague"},
+    {"text":"Previous Eco-Roof grant recipient", "value":"Previous Eco-Roof grant recipient"},
+    {"text":"Social media", "value":"Social media"},
+    {"text":"Magazine publication", "value":"Magazine publication"},
+    {"text":"Event", "value":"Event"},
+    {"text":"Other", "value":"Other"}
+  ],
+  "CoolAgree": [
+    {
+      "text": "I Agree: The roofing material is asbestos and mercury-free and emits zero volatile organic compounds and ozone depleting substances. ",
+      "value": "I Agree: The roofing material is asbestos and mercury-free and emits zero volatile organic compounds and ozone depleting substances. "
+    }
+  ],
+  "Attachments": [
+    {
+      "text": "Detailed construction drawings/roof plan",
+      "value": "Detailed construction drawings/roof plan"
+    },
+    {
+      "text":"Roofing materials provided by manufacturer or supplier ",
+      "value":"Roofing materials provided by manufacturer or supplier "
+    },
+    {
+      "text": "5-year maintenance contract or equivalent assurance",
+      "value": "5-year maintenance contract or equivalent assurance"
+    },
+    {
+      "text": "Current photo of existing roof",
+      "value": "Current photo of existing roof"
+    },
+    {
+      "text": "Other",
+      "value": "Other"
+    }
+  ],
+  "MPHIPPA":"<b>MFIPPA Notice of Collection:</b> The business contact information on this form and in relation to the Eco-Roof Incentive Program is used to administer the Eco-Roof Incentive Program, which will include, but not be limited to: processing of applications for the program; evaluation and verification of compliance with the Eco-Roof Incentive Program; evaluation of the Eco-Roof Incentive Program; use in governance, educational, promotional materials concerning the Eco-Roof Incentive Program; the issuing of payments in relation to the affected properties; updating the information concerning the affected properties, and collection of any unpaid amounts resulting under the Eco-Roof Incentive Program. Questions about this collection can be directed to the Eco-Roof Co-ordinator, Environment and Energy Division, 55 John Street, Metro Hall M5V 3C6. Telephone: 416- 392-1848.  Email <a href=\"mailto:Annemarie.Baynton@toronto.ca\" target=\"_top\">Program Administrator</a>",
+  "tooltip_emissivity": "Thermal emittance – Thermal emittance refers to a materials ability to release absorbed heat.",
+  "tooltip_initialsolar": "Initial solar reflectance – Solar reflectance is a measure of the ability of a surface material to reflect sunlight on a scale of 0 to 1. Solar reflectance is also called \"albedo.\" Please provide the initial or new solar reflectance value, as opposed to the aged or 3 year value.",
+  "tooltip_solarindex": "Solar reflectance index (SRI) -  SRI is a value that incorporates both solar reflectance and thermal emittance in a singlevalue to represent a material's temperature in the sun. SRI can be used as an indicator of how hot a surface would getrelative to standard black and standard white surfaces. Materials with the highest SRI values are the coolest choices for roofing.",
+  "tooltip_GFA": "Gross floor area in <strong>square meters</strong> (m<sup>2</sup>)",
+  "tooltip_TotalRoofArea": "Total roof area in <strong>square meters</strong> (m<sup>2</sup>)",
+  "tooltip_GreenRoofArea": "Green roof area in <strong>square meters</strong> (m<sup>2</sup>)",
+  "tooltip_GreenArea": "Gross floor area in <strong>square meters</strong> (m<sup>2</sup>)",
+  "IntroText_ToBeDeleted": "<h4>Green roof updates</h4><ul><li>Incentive increased: The green roof incentive has increased to $100 / m2. </li><li>Structural Assessment Grants offered: Funding is now available to help determine whether an existing building can carry the additional load of a green roof.</li><li>Not-for-profit corporations: All new construction projects by not-for-profit corporations are eligible for green roof incentives.</li></ul><h4>Cool roof updates</h4><ul><li>Partial cool roof retrofits are now eligible. You can meet our 100% coverage requirement over time or all at once. </li><li>New buildings eligible: Cool roof projects on new buildings with a gross floor area of less than 2000 m2 are now eligible.</li></ul><h4>Please note:</h4> <ul><li>You must submit your application before work on the roof starts.</li><li>Green roof projects greater than $100,000 and cool roof projects greater than $50,000 may be eligible for funding in excess of the funding maximum, subject to Council approval.</li><li>Incentives for eco-roof projects will be provided until funds are exhausted. We cannot guarantee funding for your eco-roof project will be available.</li><li>Please note that all measurements are required in SQUARE METERS. Please use a <a href=\"https://www.google.ca/search?q=convert+10+square+feet+to+square+meters\" target=\"_blank\">conversion calculator<span class=\"sr-only\">Opens in a new window</span><i aria-hidden=\"true\" class=\"fa fa-edit fa-external-link\"></i></a> to convert square feet to square meters.</li><li>Refer to our <a href=\"javascript:void(0);\" onclick=\"bootbox.dialog({'message':config.terms,'title':'Terms of Use Agreement', 'size':'large' ,'onEscape':true, 'backdrop':true})\"> Terms of Use Agreement <span class=\"sr-only\">Opens in a modal dialog</span><i aria-hidden=\"true\" class=\"fa fa-edit fa-external-link\"></i> </a>for further information.</li></ul>",
+  "sameAsRoofAddress":"Mailing Address <div style=\"margin-left:3px;\" class=\"pull-right\"> <fieldset  style='display:inline !important;'><legend class=\"sr-only\">Select checkbox if the roof address is the same as the mailing address</legend><label for=\"SameAddress_0\"  class=\"sr-only\"></label><input name=\"SameAddress\" id=\"SameAddress_0\" aria-required=\"true\" type=\"checkbox\" class=\"\" value=\"true\" ><span>Same as Roof Address</span></fieldset></div>",
+  "sameAsPropertyContact":"<div><span>Contact Name</span><div style=\"margin-left:3px;\" class=\"pull-right\"><fieldset  style='display:inline !important;'><legend class=\"sr-only\">Select checkbox if the Contact is the same as the Property Owner</legend><label class=\"\"><input name=\"SameContact\" id=\"SameContact_0\" aria-required=\"true\" type=\"checkbox\" class=\"\" value=\"true\" aria-describedby=\"sameContactHelpBlock\"><span>Same as Property Owner</span></label></fieldset><div id=\"sameContactHelpBlock\"><small class=\"help-block\" data-fv-validator=\"notEmpty\" data-fv-for=\"SameContact\" style=\"display: none;\">Select checkbox if the Contact is the same as the Property Owner</small></div></div></div>"
+}
+
