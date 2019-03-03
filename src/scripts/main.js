@@ -63,7 +63,7 @@ $(function () {
         title: this.title,
         rootPath: '/resources/eco_roof_application/',
         success: function () {
-
+          
           $(".dz-hidden-input").prop("disabled", true);
           $(":input").prop("disabled", true);
           $("#printbtn").prop('disabled', false);
